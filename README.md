@@ -1,5 +1,7 @@
 # Recovery First Ops
 
+[![checks](https://github.com/HusnainWaleed/recovery-first-ops/actions/workflows/ci.yml/badge.svg)](https://github.com/HusnainWaleed/recovery-first-ops/actions/workflows/ci.yml)
+
 A recovery drill for a fictional workplace asset inventory. Husnain Waleed's personal lab applies a systems administration lesson: a successful backup job is only useful if recovery is demonstrated.
 
 **Implemented:** consistent SQLite backup, integrity and application-table checks, restore to a new file, overwrite protection and failure tests. This is a local database recovery tool; Kubernetes monitoring and disaster recovery orchestration are future work.
